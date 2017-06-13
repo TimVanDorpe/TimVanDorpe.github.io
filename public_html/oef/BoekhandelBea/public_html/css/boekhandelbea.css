@@ -1,0 +1,147 @@
+body 
+{
+font-family: "Lucida Sans", Verdana, Geneva, sans-serif;
+font-size: small;
+color:#222;
+margin:0px;
+padding:0px;
+text-align:left; 	
+}
+
+#wrapper
+{
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+border: thin #CBD401 solid;
+padding: 5px;
+}
+
+
+header
+{
+padding: 5px;
+}
+
+nav
+{
+width:850px;
+background:#FFF;
+vertical-align: baseline;
+}
+
+nav ul
+{
+list-style-type: none;
+display: inline-block;
+}
+
+nav ul li
+{
+float: left;
+}
+
+nav ul li a
+{
+display: block;
+height: 25px;
+background: #FFF;
+width: 135px;
+font-size: 115%;
+font-weight: 300;
+color: #CBD401;
+text-align: center;
+text-decoration: none;
+margin: 5px;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:5px;
+}
+
+nav ul li a:hover
+{
+background: #CDB401;
+color: #222;
+}
+
+nav ul li a.active
+{
+background: #CDB401;
+color: #222;
+}
+
+section
+{
+	padding: 10px;
+}
+
+section ul li
+{
+list-style-image: url(../images/book_icon_mini.png);
+}
+
+h1
+{
+background-image: url(../images/logo-mini.jpg);
+height: 40px;
+padding-left: 65px;
+margin: 5px 0px 0px 0px;
+background-repeat:no-repeat;
+color:#222;
+font-size: xx-large;
+}
+
+table.openingsuren
+{
+border-collapse: collapse;
+text-align:center;
+}
+
+table.openingsuren th
+{
+color: #222;
+background-color: #CBD401;
+padding: 5px 25px 5px 25px;
+border-color: black;
+border-style: solid;
+border-width: thin;
+}
+
+table.openingsuren td
+{
+border-style: dashed;
+border-color: black;
+border-width: thin;
+}
+
+table.openingsuren td.zonderrand
+{
+border: none;
+}
+
+footer
+{
+margin-top: 20px;
+height: 20px;
+text-align: center;
+font-size: 85%;
+}
+
+
+label
+{
+display: inline-block;
+width: 6em;
+text-align: left;
+margin-right: 5px;
+vertical-align: top;
+}
+
+input:focus
+{
+background-color: #CBD401;
+color: white;
+}
+

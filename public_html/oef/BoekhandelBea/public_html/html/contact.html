@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Boekhandel Bea</title>
+<link href="../css/boekhandelbea.css" type="text/css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+     <img src="../images/header.jpg" alt="header"/>
+ 
+    <nav>
+    <ul>
+     <li><a href="../index.html">Home</a></li>
+     <li><a href="./openingsuren.html" >Openingsuren</a></li>
+     <li><a href="./contact.html" class="active">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+    
+    
+    <section>
+     <h1>Contact</h1>
+         <form action="processcontact.php">
+            <p><label for="naam">Naam:*</label><input type="text" name="naam" id="naam" required placeholder="Volledige naam"/> </p>
+            <p><label for="telefoon">Telefoon:</label><input type="tel" name="telefoon" id="telefoon"/> </p>
+            <p><label for="emailadres">E-mail:*</label><input type="email" name="emailadres" id="emailadres" required/> </p>
+            <p> <label for="onderwerp">Onderwerp:</label>
+                <select name="onderwerp" id="onderwerp">
+                        <option value="Bestelling">Bestelling</option>
+                        <option value="Activiteit">Activiteit</option>
+                        <option value="Promotie">Promotie</option>
+                        <option value="Andere">Andere</option>                    
+                </select>
+            </p>
+            <p><label for="bericht">Uw bericht:*</label> 
+            <textarea name="bericht" id="bericht" rows="3" cols="30" required></textarea>
+            </p>
+            <p>U wil bij voorkeur een antwoord ontvangen: 
+            <input type="radio" name="type_antwoord" value="peremail" checked="checked" />Per email
+            <input type="radio" name="type_antwoord" value="pertelefoon" />Per telefoon
+            </p> 
+            <p> * = verplicht </p>
+            <p><input type="submit" value="Verstuur" /><input type="reset" value="Alles wissen" /></p>
+        </form>
+  </section>
+    
+  <footer> &copy; Boekhandel Bea</footer>
+</div>
+</body>
+</html>

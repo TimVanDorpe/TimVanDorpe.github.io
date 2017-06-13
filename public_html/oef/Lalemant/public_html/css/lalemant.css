@@ -1,0 +1,126 @@
+body {
+    line-height: 1.2;
+    background-image: url(../images/bg.png);
+    
+}
+ol { 
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+.main {
+    width: 960px;
+    margin: auto;
+
+}
+header{
+    padding: 5%;
+  
+    border-bottom: solid 2px;
+      border-bottom-color: darkgray;
+      display: flex; 
+      padding-bottom: 15px;
+}
+nav{
+    font-size: 18px;
+     text-transform: uppercase;
+     margin-left: auto;
+}
+nav ul{
+         list-style-type:none;
+         color: darkgray;
+          
+    
+}
+nav li a{
+             color: black;
+           
+padding:10px;
+}
+nav ul li{
+    float: left;
+    padding-right: 25px;
+    border-right: 1px darkgrey dotted;
+    
+}
+nav ul li a:hover{
+    color: #318e60;
+
+}
+nav ul li a{
+    
+}
+.boxes{
+    border-bottom: solid 2px;
+      border-bottom-color: darkgray;
+      display: flex;
+      margin-bottom: 20px;
+      margin-top: 10px;
+}
+.box div{
+    width: 180px;
+}
+.box img{
+    border: 2px;
+    border-color: #dadedf;
+    border-radius: 10px;
+}
+.box h2{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+     padding-left: 20px; 
+    margin-top: -30px;
+
+}
+.box p{
+    font-size: 14px;
+    line-height: 15px;
+    height: 105px;
+    margin-top: 10px;
+    line-height: 25px;
+    
+}
+.box p.greenbutton{
+    background-color: #318e60;
+     border-radius: 10px;
+     font-size: 14px;
+     text-align: center;
+      padding: 2px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+   
+    
+}
+section img{
+    border: 2px;
+    border-color: #dadedf;
+    border-radius: 10px;
+}
+
+section h1{
+ float: left;   
+ color: #555;
+ font-size: 30px;
+ padding-right: 5000px;
+ position: absolute;
+}
+section p{
+    font-size: 18px;
+    line-height: 30px;
+    font-style: italic;
+     margin-left: 400px;
+}
