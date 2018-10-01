@@ -2,6 +2,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+            function sendMail() {
+            window.open('mailto:tim.van.dorpe58@gmail.com');
+            window.open('mailto:tim.van.dorpe58@gmail.com?subject=name&body=body');
+            }
+        </script>
+
         <title>Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
          
@@ -40,10 +47,10 @@
                   
                     <p>Hello my name is Tim and I'm a passionate web developer searching for a challenging job.
                         My interests lay in new technology and learning new languages. 
-                        Beside that I'm a team player on a soccer team and like to do a lot of sports.
+                        Beside that I'm a social team player on a soccer team and like to do a lot of sports.
                         In coding I'm most profoundly by the backend side of development.
                         My studies in Hogent prepared me for a full stack development career where I'm ready for and can't 
-                        wait to start my first IT-job. If you want to hear more from me you can contact me below or send me on tim.van.dorpe58@gmail.com.
+                        wait to start my first IT-job. If you want to hear more from me on tim.van.dorpe58@gmail.com.
                     
                     </p>
                     </div>
@@ -70,13 +77,15 @@
                  <div class="col-md-3"></div>
                 <div class="col-md-7 ">                     
                     <img  src="images/android.png" class="margin5" height="150" width="150"  >
-                    <img  src="images/angular.png"  class="margin5" height="150" width="150"  >
+                    <img  src="images/angular5.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/c-sharp.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/git.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/HTML5_Logo_512.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/java.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/javascript_logo.png"  class="margin5" height="150" width="150"  >
                     <img  src="images/net_top.png"  class="margin5" height="150" width="150"  >
+                    <img  src="images/sql.png"  class="margin5" height="150" width="150"  >
+                    <img  src="images/CSS3.png"  class="margin5" height="150" width="150"  >
 
              
                 
@@ -88,12 +97,12 @@
             <div class="row"><div class="col-md-3"></div>                
                  
                 <div class="col-md-6"> 
-                   <form  class="form" METHOD="post" ACTION="mailto:tim.van.dorpe@hotmail.com" name ="Portfolio"  >                         
-                   <input type="text" class="input" name="naam" id="naam" placeholder="Name" ><br>
-                     <input type="email" class="input" name="email" id="email" placeholder="Email" > <br>                    
+                   <form  class="form" METHOD="post" name ="Portfolio"  enctype="text/plain">                         
+                   <input type="text" class="input" name="name" id="naam" placeholder="Name" value="name"><br>
+                     <input type="email" class="input" name="body" id="email" placeholder="Email" > <br>                    
                     <textarea name="bericht"  class="input" id="bericht" rows="8" cols="50" placeholder="Message" ></textarea>
-                <br>                    
-                   <input style="margin-left:44%;" class="submit btn" type="submit" value="Submit" />  
+                    <br>                    
+                   <input style="margin-left:44%;" onclick="sendMail()" class="submit btn" type="submit" value="Send Email" />  
                     </form>
                 <div class="col-md-2"></div>   
                 
