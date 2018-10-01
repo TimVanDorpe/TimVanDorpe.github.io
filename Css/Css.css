@@ -42,10 +42,16 @@ p{
     padding-top : 25px;
 
 }
+.textt{
+    color : #119DA4;
+    margin : 25px;
+    margin-left: 0px;
+    font-size : 20px;
+}
 #contact{
      background-color: white;
     color:black;
-    height:540px;
+    height:400px;
     font-size : 25px;
     padding-top : 25px;
 
